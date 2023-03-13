@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #C4C4C4; */
+}
+h1{
+    font-size: 2vw;
+}
+div{
+    display: inline-block;
+}
+.navbar{
+    width: 100vw;
+    background-color: #06c1671e;
+}
+.logo{
+    width: 30%;
+    padding-left: 3vw;
+    padding-top: 3vh;
+    color: #06C167;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw ;
+
+}
+.menu{
+    width: 69%;
+}
+ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+    justify-content: right;
+}
+ul li{
+    margin-right: 15px;
+    padding-top: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2vw;
+    
+}
+ul li a:hover{
+    color:#06C167;
+}
+.hero{
+    
+    background-color: #06c1671e;
+    width: 100vw;
+    height: 65vh;
+    padding-top: 15vh;
+    padding-left: 12vw;
+    position: relative;
+}
+.left .right{
+    width: 50%;
+}
+.left h1{
+    margin-bottom: 10px;
+}
+.left p{
+    margin-bottom: 3vh ;
+    line-height: 4vh;
+    font-size: 1vw;
+}
+.btn-start{
+    text-decoration: none;
+    padding: 2vh 2vw;
+    border: #06C167;
+    background-color: #06C167;
+    color: white;
+    font-weight: bold;     
+    font-size: 1.3vw;
+    border-radius: 5px;
+}
+.btn-start span{
+    position: relative ;
+    left: -15px;
+}
+.btn-start i{
+    font-size: 2vw ;
+    position: relative;
+    top: 5 ;
+    left: 7;
+    
+}
+
+.img{
+    width: 25vw;
+    height: 75vh;
+    clip-path: polygon(0 0, 98% 3%, 100% 85%, 0% 100%);
+    position: absolute;
+    top: 5vh;
+    right: 17vw;
+    background-image: url("https://assets.bonappetit.com/photos/5d705268d6f4de000911b88d/16:9/w_2560%2Cc_limit/BA-Chris-Top-10-Kitchen.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+
+}
+.ratings{
+    position: absolute;
+    top: 50vh;
+    right: 33vw;
+}    
+.floater{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1.2vh 2vw;
+    background-color: white;
+    font-size: 1vw;
+}
+
+.ratings span{
+    position: relative;
+    right: 7;
+}
+.ratings i{
+    color:#06C167;
+}
+.quality-product{
+    position: absolute;
+    right: 12vw;
+    top: 25vh;
+}
+
+.brands{
+    padding-left: 12vw;
+    padding-top: 7vh;
+    display: flex;
+    gap: 5vw ;
+}
+.brands i{
+    font-size: 1vw;
+}
+.ameneties{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    padding-top: 10vh;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+
+    /* padding-left: 12vw;
+    padding-right: 13vw; */
+    
+}
+.amenity{
+    
+    position: relative;
+    width: 9vw;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.amenity p{
+    font-size: 1.2vw;
+    margin-bottom: 0.1vw;
+}
+.amenity span{
+    font-weight :lighter ;
+    font-size: 0.7vw;
+}
+.amenity i{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #06c1671e;
+    color: #06C167;
+    padding: 0.7vw;
+    right: 10vw;
+    top: -5px;
+    align-items: center;
+}
